@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
 
 TextStyle titleFont = const TextStyle(
-  fontWeight: FontWeight.w600, fontSize: 18.0);
+  fontWeight: FontWeight.w600, 
+  fontSize: 18.0,
+  color: Colors.white
+);
 
 TextStyle infoFont = const TextStyle(
-  fontWeight: FontWeight.w400, fontSize: 18.0);
+  fontWeight: FontWeight.w400, 
+  fontSize: 18.0,
+  color: Colors.white
+);
 
 Widget additionalInformation(
   String wind, String humidity, String pressure, String feels_like) {

@@ -17,6 +17,7 @@ Widget currentWeather(IconData icon, String temp, String location){
         Text(
           "$temp",
           style: TextStyle(
+            color: Colors.white,
             fontSize: 46.0,
           ),
         ),
@@ -27,7 +28,7 @@ Widget currentWeather(IconData icon, String temp, String location){
           "$location",
           style: TextStyle(
             fontSize: 18.0,
-            color: Color(0xFFa5a5a5),
+            color: Colors.white,
           ),
         ),
       ],
